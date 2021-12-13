@@ -7,6 +7,8 @@ env = gym.make( 'MountainCar-v0' )
 env.reset()
 
 # Show that it is actually a two dimensional space box
+# Range for cart position: [-1.2, -0.07] 
+# Range for cart velocity: [0.6, 0.07]
 print( f'State space: {env.observation_space}' )
 
 # Show that there are 3 distinctive actions that can take place
