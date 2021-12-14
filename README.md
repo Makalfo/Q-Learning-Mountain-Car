@@ -1,1 +1,1 @@
-# q-learning-gym-ai
+# Q-Learning Mountain Car
